@@ -1,12 +1,12 @@
 {
   "items": [
     {
-      "text": "Home",
+      "text": "Game",
       "url": "/",
       "external": false
     },
     {
-      "text": "About",
+      "text": "HeartScape Team",
       "url": "/about",
       "external": false
     },
