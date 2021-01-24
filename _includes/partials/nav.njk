@@ -1,6 +1,6 @@
 {% if navigation.items %}
   <nav class="p-4 space-x-4 bg-gray-50 shadow-md mb-4" aria-label="{{ ariaNavLabel }}">
-    <a href="/" class="">
+    <a href="{{site.baseURL}}/" class="">
       <img class="inline-block h-12" src="https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/heartscape-logo-color.png" alt="HeartScape team logo"/>
     </a>
     {% for item in navigation.items %}
@@ -15,7 +15,7 @@
         {% set currentAttribute = ' aria-current="page"' %}
       {% endif %}
 
-      <a class="inline-block px-4 py-2 rounded bg-gray-200 hover:bg-gray-300" href="{{ item.url }}" {{ externalAttribute | safe }} {{ currentAttribute | safe }}>
+      <a class="inline-block px-4 py-2 rounded bg-gray-200 hover:bg-gray-300" href="{{ site.baseURL }}{{ item.url }}" {{ externalAttribute | safe }} {{ currentAttribute | safe }}>
         {{ item.text }}
       </a>
     {% endfor %}
