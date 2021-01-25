@@ -1,13 +1,15 @@
 const site = {
   "title": "HeartScape Studio",
-  "baseURL": "https://b7s9.com/srp/growing",
   "description": "HeartScape Studio presents: Growing."
 };
 
 module.exports = function () {
-  // use the URL that is set via an environment variable
-  if (process.env.ELEVENTY_URL) {
-    site.baseURL = process.env.ELEVENTY_URL;
+  if (process.env.ELEVENTY_PRODUCTION) {
+    site.baseURL = 'https://b7s9.com/srp/growing';
+  } else if (process.env.ELEVENTY_URL) {
+    site.baseURL = process.env.ELEVENTY_URL
+  } else {
+    site.baseURL = 'http://localhost:8080';
   }
 
   return site;
