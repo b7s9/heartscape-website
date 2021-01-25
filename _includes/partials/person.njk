@@ -1,0 +1,35 @@
+<div class="flex flex-wrap justify-center">
+  {% for person in people.items %}
+    {% if person.status === 'core' %}
+      <div class="flex-initial w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 xl:w-1/6">
+        <div class="m-4 rounded shadow bg-gray-200 text-gray-800">
+
+          {% if person.imgUrl %}
+            {% set imgUrl = person.imgUrl %}
+            {%else%}
+            {% set imgUrl = 'https://placekitten.com/200/200' %}
+          {% endif %}
+          <img class="headshot rounded" src="{{imgUrl}}" alt="{{person.name}}">
+
+          <div class="p-2">
+            <p class="font-bold">{{person.name}}</p>
+            <p>{{person.roles}}</p>
+
+            {% if person.linkedinUrl %}
+              <a href="{{person.linkedinUrl}}" target="blank" class="text-2xl">
+                <i class="ci-LinkedIn"></i>
+              </a>
+            {% endif %}
+
+            {% if person.website.url %}
+              <a href="{{person.website.url}}" target="blank" class="text-2xl">
+                <i class="ci-link_02"></i>
+              </a>
+            {% endif %}
+
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>

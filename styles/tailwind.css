@@ -7,3 +7,7 @@
     color: black;
   }
 }
+
+img.headshot {
+  filter: grayscale(100%);
+}

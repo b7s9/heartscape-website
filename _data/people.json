@@ -1,0 +1,193 @@
+{
+  "items": [
+    {
+      "name": "Dan Rose",
+      "roles": "DIGM Team Advisor",
+      "status": "advisor",
+      "team": "",
+      "imgUrl": "",
+      "linkedinUrl": "",
+      "website": { "url": "", "type": "" }
+    },
+    {
+      "name": "Jeff Salvage",
+      "roles": "CCI Team Advisor",
+      "status": "advisor",
+      "team": "",
+      "imgUrl": "",
+      "linkedinUrl": "",
+      "website": { "url": "", "type": "" }
+    },
+    {
+      "name": "Rob Lloyd",
+      "roles": "Senior Project Coordinator",
+      "status": "advisor",
+      "team": "",
+      "imgUrl": "",
+      "linkedinUrl": "",
+      "website": { "url": "", "type": "" }
+    },
+    {
+      "name": "Ana Acosta",
+      "roles": "Producer, Writer",
+      "status": "core",
+      "team": "digm",
+      "imgUrl": "https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/headshots/Ana.jpeg",
+      "linkedinUrl": "https://www.linkedin.com/in/ana-acosta-59202a158/",
+      "website": { "url": "https://annieacosta.com/", "type": "portfolio" }
+    },
+    {
+      "name": "Austin Abrams",
+      "roles": "Technical Director",
+      "status": "core",
+      "team": "digm",
+      "imgUrl": "https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/headshots/Austin.jpg",
+      "linkedinUrl": "",
+      "website": { "url": "", "type": "" }
+    },
+    {
+      "name": "Ben Schenerman",
+      "roles": "UI Designer, UX Researcher",
+      "status": "core",
+      "team": "digm",
+      "imgUrl": "https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/headshots/Ben.jpeg",
+      "linkedinUrl": "https://www.linkedin.com/in/ben-schenerman/",
+      "website": { "url": "https://b7s9.com", "type": "portfolio" }
+    },
+    {
+      "name": "Deirdre Liu",
+      "roles": "MoCap Animator",
+      "status": "core",
+      "team": "digm",
+      "imgUrl": "https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/headshots/Deidre.jpeg",
+      "linkedinUrl": "https://www.linkedin.com/in/deirdre-liu/",
+      "website": { "url": "http://www.deirdreliu.co/", "type": "portfolio" }
+    },
+    {
+      "name": "Duy “Zwee” Hoang",
+      "roles": "Programmer",
+      "status": "core",
+      "team": "cci",
+      "imgUrl": "https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/headshots/Duy.png",
+      "linkedinUrl": "",
+      "website": { "url": "", "type": "" }
+    },
+    {
+      "name": "Elton Chau",
+      "roles": "Organic Modeler",
+      "status": "core",
+      "team": "digm",
+      "imgUrl": "https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/headshots/Elton.jpeg",
+      "linkedinUrl": "https://www.linkedin.com/in/eltonchau/",
+      "website": { "url": "", "type": "" }
+    },
+    {
+      "name": "Jake Dixey",
+      "roles": "Programmer",
+      "status": "core",
+      "team": "cci",
+      "imgUrl": "https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/headshots/JakeD.jpg",
+      "linkedinUrl": "",
+      "website": { "url": "", "type": "" }
+    },
+    {
+      "name": "Jake McKenna",
+      "roles": "Lead Designer",
+      "status": "core",
+      "team": "digm",
+      "imgUrl": "https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/headshots/JakeM.jpg",
+      "linkedinUrl": "https://www.linkedin.com/in/jake-mckenna-68a081108/",
+      "website": { "url": "https://jake1025.itch.io/", "type": "portfolio" }
+    },
+    {
+      "name": "Malcolm Bornmann",
+      "roles": "Art Lead",
+      "status": "core",
+      "team": "digm",
+      "imgUrl": "https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/headshots/Malcom.jpeg",
+      "linkedinUrl": "https://www.linkedin.com/in/malcolmbornmann/",
+      "website": { "url": "https://mpbornmann.wixsite.com/portfolio", "type": "portfolio" }
+    },
+    {
+      "name": "Michael Wu",
+      "roles": "Programmer",
+      "status": "core",
+      "team": "cci",
+      "imgUrl": "https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/headshots/Michael.jpg",
+      "linkedinUrl": "",
+      "website": { "url": "", "type": "" }
+    },
+    {
+      "name": "Peter Eldredge",
+      "roles": "Lead Programmer",
+      "status": "core",
+      "team": "cci",
+      "imgUrl": "https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/headshots/Peter.jpg",
+      "linkedinUrl": "",
+      "website": { "url": "", "type": "" }
+    },
+    {
+      "name": "Robert Barton",
+      "roles": "UI/UX Designer",
+      "status": "core",
+      "team": "cci",
+      "imgUrl": "https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/headshots/Robert.jpeg",
+      "linkedinUrl": "",
+      "website": { "url": "", "type": "" }
+    },
+    {
+      "name": "Lara Rende",
+      "roles": "Motion Capture Technician",
+      "status": "freelancer",
+      "team": "",
+      "imgUrl": "",
+      "linkedinUrl": "",
+      "website": { "url": "", "type": "" }
+    },
+    {
+      "name": "Mira Holahan",
+      "roles": "Concept Artist",
+      "status": "freelancer",
+      "team": "",
+      "imgUrl": "",
+      "linkedinUrl": "",
+      "website": { "url": "", "type": "" }
+    },
+    {
+      "name": "Panote “Note” Nuchprayoon",
+      "roles": "Character Modeler",
+      "status": "freelancer",
+      "team": "",
+      "imgUrl": "",
+      "linkedinUrl": "",
+      "website": { "url": "", "type": "" }
+    },
+    {
+      "name": "Ryan Pumo",
+      "roles": "Composer",
+      "status": "freelancer",
+      "team": "",
+      "imgUrl": "",
+      "linkedinUrl": "",
+      "website": { "url": "", "type": "" }
+    },
+    {
+      "name": "Sana Hadavi",
+      "roles": "Motion Capture Technician",
+      "status": "freelancer",
+      "team": "",
+      "imgUrl": "",
+      "linkedinUrl": "",
+      "website": { "url": "", "type": "" }
+    },
+    {
+      "name": "Digic Pictures",
+      "roles": "Cat Motion Capture Data",
+      "status": "vendor",
+      "team": "",
+      "imgUrl": "",
+      "linkedinUrl": "https://www.linkedin.com/company/digic-pictures/",
+      "website": { "url": "https://www.digicpictures.com/", "type": "" }
+    }
+  ]
+}
