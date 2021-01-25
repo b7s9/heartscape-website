@@ -9,10 +9,13 @@
             {%else%}
             {% set imgUrl = 'https://placekitten.com/200/200' %}
           {% endif %}
-          <img class="headshot rounded" src="{{imgUrl}}" alt="{{person.name}}">
+          <img class="headshot rounded mx-auto" src="{{imgUrl}}" alt="{{person.name}}">
 
           <div class="p-2">
-            <p class="font-bold">{{person.name}}</p>
+            <span class="font-bold">{{person.name}}</span>
+            {% if person.genderPronouns %}
+              <span class="text-sm text-gray-600">{{person.genderPronouns}}</span>
+            {% endif %}
             <p>{{person.roles}}</p>
 
             {% if person.linkedinUrl %}

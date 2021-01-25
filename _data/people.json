@@ -3,6 +3,7 @@
     {
       "name": "Dan Rose",
       "roles": "DIGM Team Advisor",
+      "genderPronouns": "he/him",
       "status": "advisor",
       "team": "",
       "imgUrl": "",
@@ -12,6 +13,7 @@
     {
       "name": "Jeff Salvage",
       "roles": "CCI Team Advisor",
+      "genderPronouns": "he/him",
       "status": "advisor",
       "team": "",
       "imgUrl": "",
@@ -21,6 +23,7 @@
     {
       "name": "Rob Lloyd",
       "roles": "Senior Project Coordinator",
+      "genderPronouns": "he/him",
       "status": "advisor",
       "team": "",
       "imgUrl": "",
@@ -30,6 +33,7 @@
     {
       "name": "Ana Acosta",
       "roles": "Producer, Writer",
+      "genderPronouns": "she/her",
       "status": "core",
       "team": "digm",
       "imgUrl": "https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/headshots/Ana.jpeg",
@@ -39,6 +43,7 @@
     {
       "name": "Austin Abrams",
       "roles": "Technical Director",
+      "genderPronouns": "he/him",
       "status": "core",
       "team": "digm",
       "imgUrl": "https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/headshots/Austin.jpg",
@@ -48,6 +53,7 @@
     {
       "name": "Ben Schenerman",
       "roles": "UI Designer, UX Researcher",
+      "genderPronouns": "he/him",
       "status": "core",
       "team": "digm",
       "imgUrl": "https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/headshots/Ben.jpeg",
@@ -57,6 +63,7 @@
     {
       "name": "Deirdre Liu",
       "roles": "MoCap Animator",
+      "genderPronouns": "she/her",
       "status": "core",
       "team": "digm",
       "imgUrl": "https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/headshots/Deidre.jpeg",
@@ -66,15 +73,17 @@
     {
       "name": "Duy “Zwee” Hoang",
       "roles": "Programmer",
+      "genderPronouns": "he/him",
       "status": "core",
       "team": "cci",
       "imgUrl": "https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/headshots/Duy.png",
-      "linkedinUrl": "",
-      "website": { "url": "", "type": "" }
+      "linkedinUrl": "https://www.linkedin.com/in/duy-hoang/",
+      "website": { "url": "https://www.duyhoang.me/", "type": "portfolio" }
     },
     {
       "name": "Elton Chau",
       "roles": "Organic Modeler",
+      "genderPronouns": "he/him",
       "status": "core",
       "team": "digm",
       "imgUrl": "https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/headshots/Elton.jpeg",
@@ -84,15 +93,17 @@
     {
       "name": "Jake Dixey",
       "roles": "Programmer",
+      "genderPronouns": "he/him",
       "status": "core",
       "team": "cci",
       "imgUrl": "https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/headshots/JakeD.jpg",
-      "linkedinUrl": "",
-      "website": { "url": "", "type": "" }
+      "linkedinUrl": "https://www.linkedin.com/in/jacob-dixey-155057138/",
+      "website": { "url": "https://dixeyja.itch.io/", "type": "portfolio" }
     },
     {
       "name": "Jake McKenna",
       "roles": "Lead Designer",
+      "genderPronouns": "he/him",
       "status": "core",
       "team": "digm",
       "imgUrl": "https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/headshots/JakeM.jpg",
@@ -102,6 +113,7 @@
     {
       "name": "Malcolm Bornmann",
       "roles": "Art Lead",
+      "genderPronouns": "he/him",
       "status": "core",
       "team": "digm",
       "imgUrl": "https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/headshots/Malcom.jpeg",
@@ -111,6 +123,7 @@
     {
       "name": "Michael Wu",
       "roles": "Programmer",
+      "genderPronouns": "he/him",
       "status": "core",
       "team": "cci",
       "imgUrl": "https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/headshots/Michael.jpg",
@@ -120,6 +133,7 @@
     {
       "name": "Peter Eldredge",
       "roles": "Lead Programmer",
+      "genderPronouns": "he/him",
       "status": "core",
       "team": "cci",
       "imgUrl": "https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/headshots/Peter.jpg",
@@ -129,6 +143,7 @@
     {
       "name": "Robert Barton",
       "roles": "UI/UX Designer",
+      "genderPronouns": "he/him",
       "status": "core",
       "team": "cci",
       "imgUrl": "https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/headshots/Robert.jpeg",
@@ -138,6 +153,7 @@
     {
       "name": "Lara Rende",
       "roles": "Motion Capture Technician",
+      "genderPronouns": "",
       "status": "freelancer",
       "team": "",
       "imgUrl": "",
@@ -147,6 +163,7 @@
     {
       "name": "Mira Holahan",
       "roles": "Concept Artist",
+      "genderPronouns": "",
       "status": "freelancer",
       "team": "",
       "imgUrl": "",
@@ -156,6 +173,7 @@
     {
       "name": "Panote “Note” Nuchprayoon",
       "roles": "Character Modeler",
+      "genderPronouns": "",
       "status": "freelancer",
       "team": "",
       "imgUrl": "",
@@ -165,6 +183,7 @@
     {
       "name": "Ryan Pumo",
       "roles": "Composer",
+      "genderPronouns": "",
       "status": "freelancer",
       "team": "",
       "imgUrl": "",
@@ -174,6 +193,7 @@
     {
       "name": "Sana Hadavi",
       "roles": "Motion Capture Technician",
+      "genderPronouns": "",
       "status": "freelancer",
       "team": "",
       "imgUrl": "",
@@ -183,6 +203,7 @@
     {
       "name": "Digic Pictures",
       "roles": "Cat Motion Capture Data",
+      "genderPronouns": "",
       "status": "vendor",
       "team": "",
       "imgUrl": "",
