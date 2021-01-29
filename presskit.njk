@@ -3,10 +3,57 @@
 {% block title %}Growing Press Kit{% endblock %}
 
 {% block content %}
-  <div class="">
-    <h1 class="my-2 px-4 lg:my-6 text-center text-3xl">Press Kit</h1>
+  <div class="py-4 lg:py-10 bg-gradient-to-r from-blue-50 to-gray-100">
+    <h1 class="px-4 text-center">Press Kit</h1>
     <main>
-      <ul class="mx-4 list-disc list-inside">
+      <div class="mx-auto py-7 p-5 md:p-10 max-w-prose lg:max-w-2xl rounded-xl bg-white shadow-xl">
+        <p class="lg:text-lg lg:leading-10 text-gray-600">Growing is a story-rich, 3D platformer played from the perspective of a baby sunflower. Along the player’s journey to deliver a letter through a super-sized house, they’ll face-off against a mischievous cat, untangle the relationship between the grieving homeowners, and acquire new abilities of exploration that can be utilized to uncover the secrets in the house.</p>
+      </div>
+
+      <div class="grid gap-4 px-4 lg:mt-4 grid-flow-row md:grid-cols-2 lg:grid-cols-3">
+        <div class="px-4">
+          <h2>Tags & Categories</h2>
+          <ul class="md:mx-4 list-disc list-outside space-y-2">
+            <li>
+              <span class="font-extrabold">Convention:</span>
+              3D Platformer, Story-rich.</li>
+            <li>
+              <span class="font-extrabold">Length:</span>
+              Short game, 1-2 hours.</li>
+            <li>
+              <span class="font-extrabold">Difficulty:</span>
+              Easy.</li>
+            <li>
+              <span class="font-extrabold">Devices:</span>
+              Devices with 1024px screens or greater.</li>
+            <li>
+              <span class="font-extrabold">Platforms:</span>
+              OSX and Windows.</li>
+          </ul>
+        </div>
+        <div class="md:px-4">
+          <h2>Psychographic + Needs Summary</h2>
+          <ol class="mx-4 list-decimal list-outside space-y-2">
+            <li>
+              <span class="font-extrabold">Insecurity:</span>
+              People seeking escapism, more control, and a safe interaction with existentialism.</li>
+            <li>
+              <span class="font-extrabold">Curiosity:</span>
+              People seeking a novel environment, engaging distration, and earnest storytelling. Groups are not mutually exclusive.</li>
+          </ol>
+        </div>
+        <div class="md:px-4 md:col-span-2 lg:col-span-1">
+          <h2>Solution Summary</h2>
+          <ol class="mx-4 list-decimal list-outside space-y-2">
+            <li>Novel environment: Super-sized house.</li>
+            <li>Empowering movement system.</li>
+            <li>Collectible system rewarding curiosity with ability to move further and faster.</li>
+            <li>Safe and gradual experience of existentialism from older perspective.</li>
+          </ol>
+        </div>
+
+      </div>
+      {# <ul class="mx-4 list-disc list-inside">
         <li>Game short pitch</li>
         <li>Game long pitch</li>
         <li>HeartScape email</li>
@@ -17,7 +64,7 @@
         <li>Awards & Recognition</li>
         <li>Selected articles / Reviews</li>
         <li>Team members & Responsibilities</li>
-      </ul>
+      </ul> #}
     </main>
   </div>
 {% endblock %}

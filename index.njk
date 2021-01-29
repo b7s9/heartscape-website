@@ -3,15 +3,20 @@
 {% block title %}Growing Game{% endblock %}
 
 {% block content %}
-  <div>
-    <h1 class="my-2 px-4 lg:my-6 text-center text-3xl">Growing Game</h1>
+  <div class="py-4 lg:py-10">
+    <h1 class="px-4 text-center">Growing</h1>
     <main>
-      <ul class="mx-4 list-disc list-inside">
+      <div class="mb-8 grid p-4 grid-cols-1 gap-y-4 lg:p-6 lg:gap-6 lg:grid-cols-4 items-center ">
+        <div class="lg:col-start-2 lg:col-span-2"><img src="https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/concept-art/luna-and-ray-1280.png" alt="Luna & Ray concept art"></div>
+        <div class="lg:col-start-1 lg:col-span-2"><img src="https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/concept-art/sunflower-movement-1280.png" alt="Sunflower movement concepts"></div>
+        <div class="lg:col-start-3 lg:col-span-2"><img src="https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/concept-art/Cat_Concept_Art_v3-1280.png" alt="Stella the cat concept art"></div>
+      </div>
+      {# <ul class="mx-4 list-disc list-inside">
         <li>Video</li>
         <li>Pics</li>
         <li>Hype text</li>
         <li>Download Links?</li>
-      </ul>
+      </ul> #}
     </main>
   </div>
 {% endblock %}
