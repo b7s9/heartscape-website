@@ -1,23 +1,16 @@
-{% if navigation.items %}
-  <nav class="p-4 space-x-4 bg-gray-50 shadow-md mb-4" aria-label="{{ ariaNavLabel }}">
-    <a href="{{site.baseURL}}/" class="">
-      <img class="inline-block h-12" src="https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/heartscape-logo-color.png" alt="HeartScape team logo"/>
-    </a>
-    {% for item in navigation.items %}
-      {% set externalAttribute = '' %}
-      {% set currentAttribute = '' %}
+<nav x-data="{ navOpen: false }" class="p-4 bg-gray-50 shadow-md mb-4">
+  <a href="{{site.baseURL}}/" class="pr-4">
+    <img class="inline-block h-12" src="https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/heartscape-logo-color.png" alt="HeartScape team logo"/>
+  </a>
+  {# desktop nav  #}
+  <div class="hidden md:inline-block space-x-4">
+    {% include './nav-items.njk'%}
+  </div>
 
-      {% if item.external %}
-        {% set externalAttribute = ' rel="external"' %}
-      {% endif %}
-
-      {% if page.url == item.url %}
-        {% set currentAttribute = ' aria-current="page"' %}
-      {% endif %}
-
-      <a class="inline-block px-4 py-2 rounded bg-gray-200 hover:bg-gray-300" href="{{ site.baseURL }}{{ item.url }}" {{ externalAttribute | safe }} {{ currentAttribute | safe }}>
-        {{ item.text }}
-      </a>
-    {% endfor %}
-  </nav >
-{% endif %}
+  <button class="inline-block md:hidden text-4xl mt-1 float-right text-gray-700 active:text-gray-400" @click="navOpen = true">
+    <i class="ci-hamburger"></i>
+  </button>
+  <div x-show.transition.95ms="navOpen" @click.away="navOpen = false" class="content-between mt-2 space-y-2">
+    {% include './nav-items.njk'%}
+  </div>
+</nav >

@@ -15,6 +15,11 @@ module.exports = {
       },
     },
   },
-  variants: {},
+  variants: {
+    extend: {
+      backgroundColor: ['active'],
+      textColor: ['active']
+    }
+  },
   plugins: [],
 };
