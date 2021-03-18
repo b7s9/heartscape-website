@@ -2,7 +2,9 @@
 
 ## Docs
 
-[Eleventy](https://www.11ty.dev), [Tailwind CSS](https://tailwindcss.com), [Alpine.js](https://github.com/alpinejs/alpine).
+Uses [Eleventy](https://www.11ty.dev), [Tailwind CSS](https://tailwindcss.com), [Alpine.js](https://github.com/alpinejs/alpine).
+
+Requires [NodeJS](https://nodejs.org/en/download/). I recommend the LTS version for y'all. If you don't already have [git on your windows machine](https://git-scm.com/downloads), grab that as well.
 
 ## Instructions
 
