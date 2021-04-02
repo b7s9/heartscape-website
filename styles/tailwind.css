@@ -37,6 +37,10 @@
   small, .text_small {
     @apply text-sm;
   }
+
+  strong {
+    @apply font-semibold;
+  }
   
   img.headshot {
     filter: grayscale(100%);
