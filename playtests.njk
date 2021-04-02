@@ -1,0 +1,52 @@
+{% extends "_includes/layouts/default.njk" %}
+
+{% block title %}Playtests{% endblock %}
+
+{% block content %}
+  {% include 'partials/nav-spacer.njk'%}
+
+  <div class="py-4 lg:py-10">
+    <h1 class="px-4 text-center">Playtests</h1>
+    <main>
+      <h2>Active Playtests</h2>
+      <p>There are no active playtests at this time. We will post a few more playtests prior to official release in May 2021.</p>
+      <h2>Completed Playtests</h2>
+      <table class="table-auto">
+        <thead>
+          <th>Study Name</th>
+          <th>Date Completed</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>(v4) Observational Test</td>
+            <td>2021-3-12</td>
+          </tr>
+          <tr>
+            <td>(v4) Async Test</td>
+            <td>2021-3-12</td>
+          </tr>
+          <tr>
+            <td>(v3) Observational Test</td>
+            <td>2021-2-26</td>
+          </tr>
+          <tr>
+            <td>(v3) Async Test</td>
+            <td>2021-2-26</td>
+          </tr>
+          <tr>
+            <td>(v2) Observational Mechanics Test</td>
+            <td>2021-2-5</td>
+          </tr>
+          <tr>
+            <td>(v2) Async Narrative Test</td>
+            <td>2021-2-5</td>
+          </tr>
+          <tr>
+            <td>(v1) Async Mechanics Test</td>
+            <td>2020-12-4</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </div>
+{% endblock %}

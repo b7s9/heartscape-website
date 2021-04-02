@@ -6,7 +6,12 @@
       "external": false
     },
     {
-      "text": "HeartScape Team",
+      "text": "Playtests",
+      "url": "/playtests",
+      "external": false
+    },
+    {
+      "text": "Team",
       "url": "/about",
       "external": false
     },
