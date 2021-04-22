@@ -1,59 +1,42 @@
-# eleventy-tailwindcss-alpinejs-starter by [Greg Wolanski](https://gregwolanski.com)
+# Senior Project Website
 
-A starter repository showing how to build a website with the [Eleventy](https://www.11ty.dev), [Tailwind CSS](https://tailwindcss.com), and [Alpine.js](https://github.com/alpinejs/alpine).
+## Docs
 
-Learn more on CSS-Tricks: [An Eleventy Starter with Tailwind CSS and Alpine.js](https://css-tricks.com/eleventy-starter-with-tailwind-css-alpine-js/)
+Uses [Eleventy](https://www.11ty.dev), [Tailwind CSS](https://tailwindcss.com), [Alpine.js](https://github.com/alpinejs/alpine).
 
-## Getting Started
+Requires [NodeJS](https://nodejs.org/en/download/). I recommend the LTS version for y'all. If you don't already have [git on your windows machine](https://git-scm.com/downloads), grab that as well.
 
-### 1. Clone this repository
+## Instructions
 
-```
-git clone https://github.com/gregwolanski/eleventy-tailwindcss-alpinejs-starter.git my-website-name
-```
-
-### 2. Navigate to the directory
+### Installation
 
 ```
-cd my-website-name
-```
-
-### 3. Install the dependencies
-
-```
+git clone https://github.com/b7s9/heartscape-website.git
+cd heartscape-website
 npm install
 ```
 
-### 4. Update the dependencies
+### Production build
 
-```
-npm update
-```
-
-### 5. Build the project to generate the first CSS
-
-This step is only required the very first time.
+This changes the baseURL to remote, and optimizes a few things. The resulting `_site/` directory can be copied onto remote.
 
 ```
 npm run build
 ```
 
-### 6. Run Eleventy
+**On your first install:**, you'll need to run the production script one time before being able to run in dev mode
 
+### Local Dev
+
+The following command watches for changes on save and updates changes available to you on [localhost:8080](http://localhost:8080), as long as the script is running in your terminal. 
 ```
-npm run start
+npm start
 ```
 
-## Author
+Press `ctrl` + `c` to stop it.
 
-[Greg Wolanski](https://gregwolanski.com)
+## Credits
 
-## Troubleshooting
+Template and [article](https://css-tricks.com/eleventy-starter-with-tailwind-css-alpine-js/) by [Greg Wolanski](https://gregwolanski.com)
 
-[Windows](https://github.com/gregwolanski/eleventy-tailwindcss-alpinejs-starter/issues/3)
-
-## License
-
-MIT
-
-See `LICENSE` for more information.
+MIT License
