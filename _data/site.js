@@ -5,7 +5,7 @@ const site = {
 
 module.exports = function () {
   if (process.env.ELEVENTY_PRODUCTION) {
-    site.baseURL = 'https://b7s9.com/srp/growing';
+    site.baseURL = 'https://growingthegame.net';
   } else if (process.env.ELEVENTY_URL) {
     site.baseURL = process.env.ELEVENTY_URL
   } else {
