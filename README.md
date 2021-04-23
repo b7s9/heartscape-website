@@ -18,6 +18,12 @@ npm install
 
 ### Production build
 
+#### Automated
+
+Any commit to master branch will be detected and built by Netlify.
+
+#### Manual
+
 This changes the baseURL to remote, and optimizes a few things. The resulting `_site/` directory can be copied onto remote.
 
 ```
