@@ -9,6 +9,13 @@ module.exports = {
   },
   theme: {
     extend: {
+      // screens: {
+      //   'sm': { 'min': '640px', 'max': '767px' },
+      //   'md': { 'min': '768px', 'max': '1023px' },
+      //   'lg': { 'min': '1024px', 'max': '1279px' },
+      //   'xl': { 'min': '1280px', 'max': '1339px' },
+      //   '2xl': { 'min': '1440' },
+      // },
       fontSize: {
         'sm': '0.64rem',
         'tiny': '0.8rem',
@@ -24,6 +31,9 @@ module.exports = {
       },
       colors: {
         change: "black",
+        yellow: colors.yellow,
+        orange: colors.orange,
+        green: colors.emerald,
         gray: colors.coolGray,
       },
     },
