@@ -1,0 +1,30 @@
+<div class="mb-8">
+  <h2 class="my-4">Design</h2>
+  <hr/>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+  {% for person in people.items %}
+    {% if person.team === 'digm' %}
+      <div class="col-span-1 pl-4 border-l-2 border-gray-200 border-solid hover:border-blue-300">
+        <span class="text-xl font-bold">{{person.name}}</span>
+        {% if person.genderPronouns %}
+          <span class="text-sm text-gray-600">{{person.genderPronouns}}</span>
+        {% endif %}
+        <p>{{person.roles}}</p>
+
+        {% if person.linkedinUrl %}
+          <a href="{{person.linkedinUrl}}" target="blank" class="text-2xl text-blue-700 hover:text-blue-500">
+            <i class="ci-LinkedIn"></i>
+          </a>
+        {% endif %}
+
+        {% if person.website.url %}
+          <a href="{{person.website.url}}" target="blank" class="text-2xl text-orange-700 hover:text-orange-500">
+            <i class="ci-link_02"></i>
+          </a>
+        {% endif %}
+
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
