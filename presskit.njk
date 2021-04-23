@@ -1,4 +1,5 @@
 {% extends "_includes/layouts/default.njk" %}
+{% from "partials/macros.njk" import pressImage %}
 
 {% block title %}Growing Press Kit{% endblock %}
 
@@ -9,18 +10,27 @@
     <h1 class="px-4 text-center">Press Kit</h1>
     <main>
       <div class="mx-auto py-7 p-5 md:p-10 max-w-prose lg:max-w-2xl rounded-xl bg-white shadow-xl">
-        <p class="lg:text-lg lg:leading-10 text-gray-600">Growing is a short, story-driven, 3D platformer played from the perspective of a sunflower. Along the player’s journey to deliver a letter through a super-sized house, they’ll acquire new movement abilities, push objects around to help with platforming, and sneak past a sleepy cat’s surveying gaze.</p>
+        <p class="lg:text-lg lg:leading-10 text-gray-600">Growing is a short 3D platformer played from the perspective of a small sunflower. Along the player’s fantasy adventure to rescue their caretakers in a super-sized house, they’ll acquire new movement abilities, push objects around to help with platforming, and sneak past a housecat’s surveying gaze.</p>
+      </div>      
+      <div class="text-center my-6">
+        <h2>Press Shots</h2>
+        <a href="https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/screenshots/Growing%20press%20shots.zip" download class="inline-block px-4 py-2 bg-black text-white font-semibold md:text-lg rounded-lg transition-colors duration-200 hover:bg-gray-700 hover:shadow-md cursor-pointer">Download all</a>
       </div>
-
-        <div class="px-4">
+      <div class="my-12 grid gap-4 px-4 lg:mt-4 grid-flow-row md:grid-cols-2 lg:grid-cols-3">
+        {{pressImage('https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/screenshots/press-shot-7.jpg','Kitchen')}}
+        {{pressImage('https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/screenshots/press-shot-2.jpg','Study')}}
+        {{pressImage('https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/screenshots/press-shot-10.jpg','Attic')}}
+      </div>
+      <div class="my-12 px-4 block w-full text-center">
+        <div class="inline-block mx-auto text-left">
           <h2>Tags &amp; Categories</h2>
-          <ul class="md:mx-4 list-disc list-outside space-y-2">
+          <ul class="pl-4 list-disc list-outside space-y-2">
             <li>
               <span class="font-extrabold">Convention:</span>
-              3D Platformer, Story-rich.</li>
+              3D Platformer, Cute.</li>
             <li>
               <span class="font-extrabold">Length:</span>
-              Short game, 1-2 hours.</li>
+              Short game, 1 hour.</li>
             <li>
               <span class="font-extrabold">Difficulty:</span>
               Easy.</li>
@@ -29,18 +39,18 @@
               Devices with 1024px screens or greater.</li>
             <li>
               <span class="font-extrabold">Platforms:</span>
-              OSX and Windows.</li>
+              Windows 8 or greater.</li>
           </ul>
         </div>
-      <div class="grid gap-4 px-4 lg:mt-4 grid-flow-row md:grid-cols-2 lg:grid-cols-3">
+      </div>
+      <div class="text-center my-12">
+        <h2>Contact</h2>
+        <a href="mailto:studioheartscape@gmail.com" class="text-lg text-blue-700 hover:text-blue-500">studioheartscape@gmail.com</a>
       </div>
       {# <ul class="mx-4 list-disc list-inside">
         <li>Game short pitch</li>
         <li>Game long pitch</li>
-        <li>HeartScape email</li>
         <li>Promo vid</li>
-        <li>Download all press shots button</li>
-        <li>Individually downloadable press shots/screengrabs</li>
         <li>Logo/icon</li>
         <li>Awards & Recognition</li>
         <li>Selected articles / Reviews</li>

@@ -1,45 +1,9 @@
-{% macro people(teamName) %}
-<div class="flex flex-wrap justify-center">
-  {% if teamName === 'digm' %}
-  <h2>Design</h2>
-  {% else %}
-  <h2>Engineering</h2>
-  {% endif %}
-  {% for person in people.items %}
-    {% if person.team === teamName %}
-      <div class="grid">
-        <div class="m-4 rounded shadow bg-gray-200 text-gray-800">
-
-          {% if person.imgUrl %}
-            {% set imgUrl = person.imgUrl %}
-            {%else%}
-            {% set imgUrl = 'https://placekitten.com/200/200' %}
-          {% endif %}
-          <img class="headshot rounded mx-auto" src="{{imgUrl}}" alt="{{person.name}}">
-
-          <div class="p-2">
-            <span class="font-bold">{{person.name}}</span>
-            {% if person.genderPronouns %}
-              <span class="text-sm text-gray-600">{{person.genderPronouns}}</span>
-            {% endif %}
-            <p>{{person.roles}}</p>
-
-            {% if person.linkedinUrl %}
-              <a href="{{person.linkedinUrl}}" target="blank" class="text-2xl">
-                <i class="ci-LinkedIn"></i>
-              </a>
-            {% endif %}
-
-            {% if person.website.url %}
-              <a href="{{person.website.url}}" target="blank" class="text-2xl">
-                <i class="ci-link_02"></i>
-              </a>
-            {% endif %}
-
-          </div>
-        </div>
-      </div>
-    {% endif %}
-  {% endfor %}
+{% macro pressImage(uri,description) %}
+<div>
+  <a href="{{uri}}" download>
+    <img src="{{uri}}" alt="{{description}}">
+  </a>
+  <span class="mt-4 text-lg">{{description}}</span>
+  {# <a href="{{uri}}" download class="inline-block px-4 py-2 bg-black text-white font-semibold md:text-lg rounded-lg transition-colors duration-200 hover:bg-gray-800 hover:shadow-md cursor-pointer">Download</a> #}
 </div>
 {% endmacro %}
