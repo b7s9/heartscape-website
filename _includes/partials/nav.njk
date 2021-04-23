@@ -1,6 +1,6 @@
-<nav x-data="{ navOpen: false }" class="p-4 bg-gray-50 shadow-md z-10">
+<nav x-data="{ navOpen: false }" class="block fixed w-full p-4 z-10 bg-white bg-opacity-90 lg:bg-opacity-60 lg:hover:bg-opacity-100 lg:opacity-80 md:hover:opacity-100 transition duration-200">
   <a href="{{site.baseURL}}/" class="pr-4">
-    <img class="inline-block h-12" src="https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/heartscape-logo-color.png" alt="HeartScape team logo"/>
+    <img class="inline-block h-12" src="https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/icons/growing-logo-full-color.png" alt="Growing logo"/>
   </a>
   {# desktop nav  #}
   <div class="hidden md:inline-block space-x-4">
@@ -13,4 +13,6 @@
   <div x-show.transition.95ms="navOpen" @click.away="navOpen = false" class="content-between mt-2 space-y-2">
     {% include './nav-items.njk'%}
   </div>
+
+  <span class="inline-block ml-4 lg:float-right lg:my-2"><em>Growing (the game)</em></span>
 </nav >

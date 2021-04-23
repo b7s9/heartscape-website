@@ -3,10 +3,16 @@
 {% block title %}HeartScape Studio Team{% endblock %}
 
 {% block content %}
-  <div class="py-4 lg:py-10 bg-gradient-to-r from-green-200 to-blue-300">
-    <h1 class="px-4 text-center">HeartScape Studio Team</h1>
+  {% include 'partials/nav-spacer.njk'%}
+
+  <div class="py-4">
+    <h1 class="px-4 my-2 text-center">HeartScape Studio Team</h1>
     <main>
-      {% include '_includes/partials/person.njk' %}
+      <div class="px-4 lg:px-8 xl:py-12 max-w-7xl mx-auto">
+        {% include '_includes/partials/digm.njk' %}
+        <div class="h-1 mt-12"></div>
+        {% include '_includes/partials/cci.njk' %}
+      </div>
     </main>
   </div>
 {% endblock %}

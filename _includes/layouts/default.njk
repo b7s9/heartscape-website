@@ -5,9 +5,18 @@
       {% block title %}HeartScape Studio{% endblock %}
     </title>
     <meta charset="UTF-8"/>
-    <link href="https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/heartscape-logo-color.png" rel="shortcut icon" type="image/png">
+    <link href="https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/icons/growing-logo-full-color.png" rel="shortcut icon" type="image/png">
     <meta name="description" content="{{site.description}}"/>
     <meta name="og:description" content="{{site.description}}"/>
+    <meta name="og:title" content="{{site.title}}"/>
+    <meta name="og:type" content="website"/>
+    <meta name="og:image" content="https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/icons/growing-logo-full-color.png"/>
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="{{site.title}}"/>
+    <meta name="twitter:description" content="{{site.description}}"/>
+    <meta name="twitter:image" content="https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/icons/growing-logo-full-color.png"/>
+   
     <meta http-equiv="x-ua-compatible" content="ie=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"/>
 
@@ -24,5 +33,6 @@
     {% block content %}
       {{ content | safe }}
     {% endblock %}
+    {% include '../partials/footer.njk'%}
   </body>
 </html>

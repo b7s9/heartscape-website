@@ -37,8 +37,23 @@
   small, .text_small {
     @apply text-sm;
   }
+
+  strong {
+    @apply font-semibold;
+  }
   
   img.headshot {
     filter: grayscale(100%);
   }
+
+  /* @responsive { */
+    @media (max-width:1023px){
+      img.hero-top {
+        object-fit: cover;
+        object-position: center;
+        height: 100vh;
+        width: auto;
+      }
+    }
+  /* } */
 }

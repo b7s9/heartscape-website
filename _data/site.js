@@ -1,5 +1,5 @@
 const site = {
-  "title": "HeartScape Studio",
+  "title": "Growing (the Game)",
   "description": "HeartScape Studio presents: Growing."
 };
 

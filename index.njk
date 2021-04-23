@@ -3,20 +3,54 @@
 {% block title %}Growing Game{% endblock %}
 
 {% block content %}
-  <div class="py-4 lg:py-10">
-    <h1 class="px-4 text-center">Growing</h1>
+  <div class="lg:hidden">
+    {% include 'partials/nav-spacer.njk'%}
+  </div>
+
+  <div class="">
     <main>
-      <div class="mb-8 grid p-4 grid-cols-1 gap-y-4 lg:p-6 lg:gap-6 lg:grid-cols-4 items-center ">
-        <div class="lg:col-start-2 lg:col-span-2"><img src="https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/concept-art/luna-and-ray-1280.png" alt="Luna & Ray concept art"></div>
-        <div class="lg:col-start-1 lg:col-span-2"><img src="https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/concept-art/sunflower-movement-1280.png" alt="Sunflower movement concepts"></div>
-        <div class="lg:col-start-3 lg:col-span-2"><img src="https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/concept-art/Cat_Concept_Art_v3-1280.png" alt="Stella the cat concept art"></div>
+      <h1 class="sr-only">Growing the Game</h1>
+      <div class="text-center overflow-hidden">
+        <picture class="h-screen xl:h-auto xl:w-screen">
+          <source media="(min-width: 1280px)" srcset="https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/screenshots/press-shot-2@2x.jpg 2048w">
+          <img class="hero-top xl:h-auto xl:w-screen" src="https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/screenshots/press-shot-2.jpg" alt="Growing Screencap">
+        </picture>
       </div>
-      {# <ul class="mx-4 list-disc list-inside">
-        <li>Video</li>
-        <li>Pics</li>
-        <li>Hype text</li>
-        <li>Download Links?</li>
-      </ul> #}
+      
+      <div class="py-28 lg:py-64 px-4 text-center bg-black text-white">
+        <span class="text-3xl lg:text-6xl font-extrabold">You awaken as a small sunflower.</span>
+        <p class="lg:text-lg my-4 mx-auto max-w-prose text-gray-200"> Your caretakers are missing, and you have a funny feeling the <strong class="font-extrabold text-gray-50">lurking cat</strong>, watching your every move, has a paw in this.</p>
+      </div>
+      <div>
+        <picture class="w-screen">
+          <source media="(min-width: 1281px)" srcset="https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/screenshots/press-shot-10@2x.jpg 2048w">          
+          <img src="https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/screenshots/press-shot-10.jpg" alt="Growing Screencap">
+        </picture>
+      </div>
+      <div class="py-28 lg:py-64 px-4 mx-auto text-center bg-yellow-300 text-black">
+        <p class="text-lg lg:text-2xl mx-auto max-w-prose">Using your <strong>magical sunflower</strong> skills, only you can traverse the towering furniture and <strong>save the day</strong>.</p>
+      </div>
+      <div>
+        <picture class="w-screen">
+          <source media="(min-width: 1281px)" srcset="https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/screenshots/press-shot-7@2x.jpg 2048w">
+          <img src="https://b7s9-static.nyc3.digitaloceanspaces.com/srp/website/screenshots/press-shot-7.jpg" alt="Growing Screencap">
+        </picture>
+      </div>
+      <div class="py-28 lg:py-64 px-4 text-center bg-orange-300 text-black">
+        <p class="text-lg lg:text-2xl  mx-auto max-w-prose"><strong>Jump</strong> over chairs, <strong>Swing</strong> across tables, and mind the gap—the kitchen floor is actually <strong>lava</strong>!</p>
+      </div>
+      <div class="py-28 lg:py-64 px-4 text-center bg-green-300 text-black">
+        <div class="px-4 grid grid-cols-1 md:grid-cols-2 md:gap-4 lg:grid-cols-6 items-center">
+          <div class="col-span-1 col-start-1 lg:col-start-2 lg:col-span-2 text-left">
+            <h2 class="mt-0 font-extrabold">Play the open Beta now.</h2>
+            <p>Ray and Luna need your help.</p>
+          </div>
+          <div class="col-span-1 col-start-1 md:col-start-2 lg:col-span-2 lg:col-start-4 mt-12 md:mt-0">
+            <a href="https://b7s9-static.nyc3.digitaloceanspaces.com/srp/Growing-Win-Build-2021-4-16-v2.zip" download class="inline-block px-4 py-2 bg-white text-black font-semibold md:text-lg rounded-lg transition-colors duration-200 hover:bg-gray-100 shadow-sm hover:shadow-md cursor-pointer">Download for Windows</a>
+            {# <span class=" block my-4 text-sm">Last build: 2021-4-23</span> #}
+          </div>
+        </div>
+      </div>      
     </main>
   </div>
 {% endblock %}

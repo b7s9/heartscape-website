@@ -1,0 +1,62 @@
+{% extends "_includes/layouts/default.njk" %}
+
+{% block title %}Playtests{% endblock %}
+
+{% block content %}
+  {% include 'partials/nav-spacer.njk'%}
+
+  <div class="py-4 lg:py-10">
+    <h1 class="px-4 text-center">Playtests</h1>
+    <main class="px-4">
+      <div class="">
+        <h2>Active Playtests</h2>
+        <p><strong>Observational test</strong>: Join today between 12-3pm EST: </p>
+        <p><strong>Asynchronous test:</strong></p>
+        <h3>Step 1.</h3>
+        <p>Download the <a href="https://b7s9-static.nyc3.digitaloceanspaces.com/srp/Growing-Win-Build-2021-4-16-v2.zip" class="underline text-blue-700 font-bold hover:text-blue-500">current build</a>. <span class="text-red-600">Do not start playing yet.</span></p>
+        <h3>Step 2.</h3>
+        <p>Open the <a href="https://drexel.qualtrics.com/jfe/form/SV_cTOymNedE9BGjyu" class="underline text-blue-700 font-bold hover:text-blue-500" target="_blank" rel="noopener noreferrer">Survey Link</a> and begin answering questions. The survey will prompt you start playing.</p>
+        <h3>Step 3.</h3>
+        <p>Once you are finished playing the game at your own pace, return to finish the survey.</p>
+      </div>
+      {# <p>There are no active playtests at this time. We will post a few more playtests prior to official release in May 2021.</p> #}
+      <h2>Completed Playtests</h2>
+      <table class="table-auto">
+        <thead>
+          <th>Study Name</th>
+          <th>Date Completed</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>(v4) Observational Test</td>
+            <td>2021-3-12</td>
+          </tr>
+          <tr>
+            <td>(v4) Async Test</td>
+            <td>2021-3-12</td>
+          </tr>
+          <tr>
+            <td>(v3) Observational Test</td>
+            <td>2021-2-26</td>
+          </tr>
+          <tr>
+            <td>(v3) Async Test</td>
+            <td>2021-2-26</td>
+          </tr>
+          <tr>
+            <td>(v2) Observational Mechanics Test</td>
+            <td>2021-2-5</td>
+          </tr>
+          <tr>
+            <td>(v2) Async Narrative Test</td>
+            <td>2021-2-5</td>
+          </tr>
+          <tr>
+            <td>(v1) Async Mechanics Test</td>
+            <td>2020-12-4</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </div>
+{% endblock %}
