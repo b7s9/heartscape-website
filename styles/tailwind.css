@@ -46,6 +46,25 @@
     filter: grayscale(100%);
   }
 
+  #trailer {
+    width: 320px;
+    height: 180px;
+  }
+
+  @media (min-width:640px) {
+    #trailer {
+      width: 640px;
+      height: 360px;
+    }
+  }
+
+  @media (min-width:1024px) {
+    #trailer {
+      width: 854;
+      height: 480;
+    }
+  }
+
   /* @responsive { */
     @media (max-width:1023px){
       img.hero-top {
