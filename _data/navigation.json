@@ -4,12 +4,7 @@
       "text": "Game",
       "url": "/",
       "external": false
-    },
-    {
-      "text": "Playtests",
-      "url": "/playtests",
-      "external": false
-    },
+    },    
     {
       "text": "Team",
       "url": "/about",
